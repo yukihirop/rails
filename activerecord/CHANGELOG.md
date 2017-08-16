@@ -1,3 +1,9 @@
+*   `ActiveRecord::Persistence#increment!` now accepts attribute aliases
+
+    Fixes #30279.
+
+    *Lisa Ugray* and *Wanderson Policarpo*
+
 *   Ensure `sum` honors `distinct` on `has_many :through` associations
 
     Fixes #16791.
